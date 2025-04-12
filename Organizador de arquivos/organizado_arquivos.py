@@ -8,7 +8,9 @@ lista_arquivos = os.listdir(caminho)
 print(lista_arquivos)
 
 locals = {
-    "imagens": [".png", ".jpg", ".jpeg"],
+    "imagens": [".png", ".jpg", ".jpeg", ".svg", ".webp"],
+    "Videos": [".mp4"],
+    "Executaveis":[".exe"],
     "Planinhas":[".xlsx"],
     "Pdfs":[".pdf"],
     "csv": [".csv"],
